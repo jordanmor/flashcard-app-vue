@@ -28,6 +28,8 @@ const cards = [
       cards: cards,
     },
     methods: {
-
+      toggleCard(card) {
+        card.flipped = !card.flipped;
+      }
     }
   });
