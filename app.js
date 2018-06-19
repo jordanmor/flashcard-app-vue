@@ -20,6 +20,11 @@ const cards = [
       back: 'Dr. Evelyn Boyd Granville',
       flipped: false,
     },
+    {
+      front: 'Developed the programming language JavaScript',
+      back: 'Brendan Eich',
+      flipped: false,
+    }
   ]; 
 
   new Vue({
